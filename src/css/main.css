@@ -6,10 +6,45 @@ video {
   height: auto;
 }
 
+body {
+  background-color: black;
+  font-family: "Baskervville", serif;
+}
+
+main {
+  margin: auto;
+  max-width: 65rem;
+}
+
 h1 {
   text-align: center;
+  color: #e0cf4f;
 }
 
 p {
-  text-align: center;
+  text-align: left;
+  justify-content: center;
+  color: white;
+}
+
+.gabriel {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+a {
+  color: white;
+}
+
+.EPs {
+  display: grid;
+  grid-template-columns: 3, 1fr;
+  grid-template-rows: 4, 1fr;
+  gap: 2rem;
+}
+
+.EP-cover {
+  height: 20rem;
+  width: 20rem;
 }
