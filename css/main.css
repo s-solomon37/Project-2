@@ -30,6 +30,11 @@ h2 {
   color: white;
 }
 
+h3 {
+  text-align: center;
+  color: white;
+}
+
 p {
   text-align: left;
   justify-content: center;
