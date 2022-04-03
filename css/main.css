@@ -111,18 +111,16 @@ section {
 #page-bio {
   background-color: white;
 }
-#page-gabriel,
-#page-bio p {
+
+#page-gabriel p {
   color: black;
 }
 
-#page-gabriel,
-#page-bio h1 {
+#page-gabriel h1 {
   color: rgba(0, 0, 0, 0.1);
 }
 
-#page-gabriel,
-#page-bio h2 {
+#page-gabriel h2 {
   color: black;
 }
 
@@ -166,4 +164,20 @@ section {
 
 iframe {
   align-content: center;
+}
+
+#page-bio p {
+  color: black;
+}
+
+#page-bio h1 {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+#page-bio h2 {
+  color: black;
+}
+
+#page-bio h2.sub {
+  color: white;
 }
