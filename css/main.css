@@ -175,6 +175,11 @@ section {
   color: rgba(0, 0, 0, 0.1);
 }
 
+#page-bio h1.title {
+  color: #9d4e3f;
+  font-size: 5.25rem;
+}
+
 #page-bio h2 {
   color: black;
 }
