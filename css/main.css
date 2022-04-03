@@ -178,6 +178,9 @@ section {
 #page-bio h2.sub {
   color: white;
 }
+#page-bio .Git-Hub {
+  color: black;
+}
 
 .vimeo {
   width: 100%;
@@ -200,4 +203,8 @@ section {
     display: flex;
     flex-direction: column;
   }
+}
+
+.social-icon {
+  color: gray;
 }
