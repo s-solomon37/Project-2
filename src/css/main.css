@@ -129,6 +129,10 @@ section {
   color: white;
 }
 
+#page-gabriel > footer > a.Git-Hub {
+  color: black;
+}
+
 .overlap {
   display: grid;
   grid-template-columns: 1fr;
@@ -178,7 +182,7 @@ section {
 #page-bio h2.sub {
   color: white;
 }
-#page-bio .Git-Hub {
+#page-bio > footer > a.Git-Hub {
   color: black;
 }
 
