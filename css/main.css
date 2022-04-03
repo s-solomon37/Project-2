@@ -181,3 +181,11 @@ iframe {
 #page-bio h2.sub {
   color: white;
 }
+
+/* Mobile Only */
+@media (max-width: 47.9375em) {
+  .gabriel {
+    display: flex;
+    flex-direction: column;
+  }
+}
