@@ -12,10 +12,18 @@ body {
 }
 
 header {
-  justify-content: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  font-size: 1.3em;
 }
 
 main {
+  padding-top: 2rem;
   margin: auto;
   max-width: 65rem;
 }
@@ -23,6 +31,7 @@ main {
 h1 {
   text-align: center;
   color: #e0cf4f;
+  font-size: 3.75em;
 }
 
 h2 {
@@ -31,13 +40,14 @@ h2 {
 }
 
 h3 {
-  text-align: center;
-  color: white;
+  color: black;
 }
 
 p {
-  text-align: left;
-  justify-content: center;
+  color: white;
+}
+
+figcaption {
   color: white;
 }
 
@@ -45,6 +55,7 @@ p {
   display: flex;
   flex-direction: row;
   gap: 5rem;
+  padding: 8rem 0 10rem 0;
 }
 
 a {
@@ -79,4 +90,80 @@ a {
 }
 .four {
   grid-area: four;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 3rem 0;
+}
+
+section.bio > figure > img {
+  width: 200rem;
+}
+
+section {
+  padding: 0 0 10rem 0;
+}
+
+#page-gabriel,
+#page-bio {
+  background-color: white;
+}
+#page-gabriel,
+#page-bio p {
+  color: black;
+}
+
+#page-gabriel,
+#page-bio h1 {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+#page-gabriel,
+#page-bio h2 {
+  color: black;
+}
+
+#page-gabriel h2.sub {
+  color: white;
+}
+
+.overlap {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.background {
+  object-fit: cover;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.foreground {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+#album-info {
+  justify-content: center;
+  text-align: center;
+}
+
+.gabriel-2 {
+  max-width: 20rem;
+  display: flex;
+}
+
+#tracklist {
+  display: flex;
+  flex-direction: row;
+}
+
+iframe {
+  align-content: center;
 }
