@@ -48,7 +48,7 @@ p {
 }
 
 figcaption {
-  color: white;
+  color: black;
 }
 
 .gabriel {
@@ -75,7 +75,6 @@ a {
 }
 
 .EP-cover {
-  height: 20rem;
   width: 20rem;
 }
 
@@ -95,6 +94,8 @@ a {
 .bio {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
   padding: 3rem 0;
 }
@@ -162,10 +163,6 @@ section {
   flex-direction: row;
 }
 
-iframe {
-  align-content: center;
-}
-
 #page-bio p {
   color: black;
 }
@@ -182,9 +179,24 @@ iframe {
   color: white;
 }
 
+.vimeo {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
 /* Mobile Only */
 @media (max-width: 47.9375em) {
   .gabriel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .EPs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.bio {
     display: flex;
     flex-direction: column;
   }
