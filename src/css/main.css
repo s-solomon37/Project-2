@@ -159,7 +159,7 @@ section {
 
 .gabriel-2 {
   max-width: 20rem;
-  display: flex;
+  margin: 1rem auto;
 }
 
 #tracklist {
