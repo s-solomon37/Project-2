@@ -205,6 +205,12 @@ section {
   aspect-ratio: 16 / 9;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
 /* Mobile Only */
 @media (max-width: 47.9375em) {
   .gabriel {
