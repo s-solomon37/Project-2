@@ -51,11 +51,20 @@ figcaption {
   color: black;
 }
 
+.text-center {
+  text-align: center;
+  display: block;
+}
+
+.span-2 {
+  grid-column-end: span 2;
+}
+
 .gabriel {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
-  margin: 8rem 0 10rem 0;
+  margin: 8rem 0 0 0;
 }
 
 a {
