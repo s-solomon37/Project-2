@@ -52,10 +52,10 @@ figcaption {
 }
 
 .gabriel {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 5rem;
-  padding: 8rem 0 10rem 0;
+  margin: 8rem 0 10rem 0;
 }
 
 a {
