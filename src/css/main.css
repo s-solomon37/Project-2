@@ -74,13 +74,14 @@ a {
 .EPs {
   display: grid;
   grid-template-columns: 3, 1fr;
-  grid-template-rows: 4, 1fr;
+  grid-template-rows: 5, 1fr;
   gap: 2rem;
   grid-template-areas:
     ". one ."
     "two one three"
     "two four three"
-    ". four .";
+    ". four ."
+    ". five .";
 }
 
 .EP-cover {
@@ -98,6 +99,9 @@ a {
 }
 .four {
   grid-area: four;
+}
+.five {
+  grid-area: five;
 }
 
 .bio {
@@ -173,7 +177,8 @@ section {
 
 #tracklist {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  list-style-type: none;
 }
 
 #page-bio p {
@@ -231,5 +236,9 @@ footer {
 }
 
 .social-icon {
+  color: gray;
+}
+
+.on-white-bckgrnd {
   color: gray;
 }
